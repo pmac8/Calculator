@@ -1,0 +1,31 @@
+
+
+.number,
+.operator,
+.decimal,
+.equals,
+.clear {
+    padding: 20px;
+
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+    padding: 5px 5px;
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid black;
+    width: 128px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.clear {
+    display: flex;
+    justify-items: end;
+}
